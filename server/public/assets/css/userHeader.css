@@ -1,0 +1,64 @@
+.coverPictureDiv {
+    height: auto;
+    margin-left: 15%;
+}
+
+.profilePictureDiv {
+    height: auto;;
+    margin-top: -10%;
+}
+
+.userDetails {
+}
+.Data {
+    text-align: center;
+    margin-top: -10%;
+    width: 30%;
+    border: 4px solid rgb(73, 71, 71);
+    margin-left: 35%;
+    border-radius: 70%;
+    
+}
+
+div.profilePictureDiv {
+    width: 400px;
+    height: 300px;
+    margin-top: 10%;
+    margin-left: 45%;
+}
+
+div.profilePictureDiv img.profilePicture {
+    width: 250px;
+    height: 140px;
+    border-radius: 50%;
+}
+
+img {
+    overflow: hidden;
+    overflow-clip-margin: content-box;
+}
+
+div.coverPictureDiv {
+    border-radius: 30px;
+    width: 400px;
+    height: 300px;
+}
+
+div.coverPictureDiv img.coverpicture {
+    width: 500px;
+    height: 300px;
+    margin-top: 50%;
+    margin-left: 50%;
+    border-radius: 25%;
+}
+
+html {
+    padding-top: 0%;
+    background-color: deeppink;
+}
+
+
+
+h4 {
+    color: white;
+}

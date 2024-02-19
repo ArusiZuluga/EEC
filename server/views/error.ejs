@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head class="Head">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kidtergarten</title>
+    <link type="text/css" rel="stylesheet" href="/public/assets/css/errorPage.css">
+    <link rel="icon" type="image/x-icon" href="/public/favicon.ico">
+    <%- include('./layouts/Header') %>
+</head>
+<div class="EprimaryDiv">
+    <div class="EbodyDiv">
+        <body>
+                <h2 id="EVH2">
+                    <%= errorMessage %> !!
+                </h2>
+                <button onclick="history.back()" id="btn">
+                    Go back to previous page?
+                </button>
+        </body>
+    </div>
+    <footer>
+        <%- include('./layouts/Footer') %>
+    </footer>
+</div>
+</html>

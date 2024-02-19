@@ -1,0 +1,17 @@
+.GamePrimaryDiv {
+    margin-top: -55%;
+    margin-left: 5%;
+    width: 20%;
+}
+
+.longBar {
+    margin-left: 40%;
+    margin-top: -10%;
+    background-color: aliceblue;
+    margin-right: 40%;
+    text-align: center;
+}
+
+.resultDiv {
+    margin-left: 80%;
+}

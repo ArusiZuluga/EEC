@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head class="Head">
+        <title> Enter token to verify email</title>
+        <link type="text/css" rel="stylesheet" href="/public/assets/css/validationPage.css">
+        <link rel="icon" type="image/x-icon" href="/public/favicon.ico">
+        <%- include('./layouts/Header') %>
+    </head>
+    <div class="primaryDiv">
+    <div class="bodyDiv">
+        <body>
+            <form method="POST" action="/Sign-Up/verify">
+                <label> <h2 id="VH2">Verify <%= email %> </h2>
+                    <input placeholder="Enter Token To Verify" name="Token" type="number">
+                </label>
+                <label>
+                    <input id="subMit" type="submit">
+                </label>
+            </form>
+            <form action="/Sign-Up/reValidate" method="post">
+                <button id="btn" name="reValidation" type="submit"> <h4>REQUEST NEW TOKEN</h4> </button>
+            </form>
+        </body>
+                    
+    </div>
+        <footer>
+            <%- include('./layouts/Footer') %>
+        </footer>
+    </div>
+</html>

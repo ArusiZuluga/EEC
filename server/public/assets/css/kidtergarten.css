@@ -1,0 +1,49 @@
+.mainDiv {
+    background-color: rgba(230, 204, 204, 0.315);
+    width: auto;
+    height: auto;
+    border-radius: 19%;
+    padding: 10px;
+    margin-top: 10%;
+    
+}
+
+header div.userDetails h3  {
+    font-size: 33px;
+    display: contents;
+}
+
+header div.userDetails {
+    background-color: aliceblue;
+}
+
+html {
+    background-color: #282c34;
+}
+
+.headDiv {
+    text-align: center;
+}
+
+a {
+    cursor: pointer;
+}
+
+.headChildDiv {
+    background-color: rgb(134, 45, 45);
+    width: auto;
+    height: auto;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 25%;
+    color: white;
+    margin-top: -5%;
+    position: fixed;
+    margin-left: 35%;
+    box-sizing: border-box;
+    border: 5px solid black;
+}
+
+div.mainDiv header {
+    display: inline-flex;
+}

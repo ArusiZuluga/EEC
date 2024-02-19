@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Hi <%= User.Name %> , Welcome to Kidtergarten </title>
+        <link type="text/css" rel="stylesheet" href="/public/assets/css/kidtergarten.css">
+        <link rel="icon" type="image/x-icon" href="/public/favicon.ico">
+        <%- include('./layouts/navbar') %>
+    </head>
+        <div class="mainDiv">
+            <div class="headChildDiv"> Hello <%= User.Name %></div>
+        </div>
+    <p> <%- include("./layouts/userLayouts/userHeader") %></p>
+    <p> <%- include("./layouts/userLayouts/userSidebar") %></p>
+    <p> <%- include("./layouts/userLayouts/userFrontGame") %></p>
+</html>
