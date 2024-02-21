@@ -12,8 +12,7 @@ app.set('trust proxy', 1)
 app.use(bodyParser.urlencoded({extended: true}))
 
 app.get("/", (req, res) => {
-    res.render('layouts/userLayouts/userFrontGame')
-   // res.render("http://localhost:3000/Login") //
+    res.render("http://localhost:3000/Login")
 })
 
 

@@ -1,0 +1,21 @@
+.postsDiv {
+    width: 60%;
+    background-color: rgb(197, 187, 185);
+    margin-top: 15%;
+    text-align: center;
+    margin-left: 20%;
+}
+
+#postsH1 {
+    border: 5px ;
+    width: 50%;
+    margin-left: 25%;
+    padding: 5px;
+    background-color: rgb(178, 182, 182);
+    border-radius: 44%;
+}
+
+video {
+    width: 100%;
+    padding: 4px;
+}

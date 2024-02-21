@@ -1,0 +1,82 @@
+.ranking {
+    width: 20%;
+    margin-right: 5%;
+    margin-left: 75%;
+    margin-top: 10%;
+    border-style: groove;
+    border: 5px solid rgb(230, 219, 219);
+    text-align: center;
+    
+}
+
+.gameHeading {
+    display: inline-flex;
+    background-color: blue;
+    width: 100%;
+    height: 30px;
+    margin-top: -80%;
+}
+
+.gameHeading2 {
+    display: inline-flex;
+    background-color: blueviolet;
+    width: 100%;
+}
+
+.gameHeadingRed {
+    display: inline-flex;
+    background-color: red;
+    width: 100%;
+}
+
+.gameHeadingPurple {
+    display: inline-flex;
+    background-color: purple;
+    width: 100%;
+}
+.gameHeadingYellow {
+    display: inline-flex;
+    background-color: yellow;
+    width: 100%;
+}
+
+.gameHeadingYG {
+    display: inline-flex;
+    background-color: yellowgreen;
+    width: 100%;
+}
+
+.gameHeadingGreen {
+    display: inline-flex;
+    background-color: green;
+    width: 100%;
+}
+
+#topplayers {
+    border: 5px solid rgb(207, 200, 200);
+    margin-top: -4%;
+}
+
+#playerh3 {
+    padding: 4px;
+    margin-top: -15%;
+    background-color: blue;
+}
+#playerh30 {
+    padding: 4px;
+    margin-left: 50%;
+    margin-top: -15%;
+    background-color: blue;
+}
+
+span {
+    padding: 5px;
+}
+
+#playerSpan {
+    
+}
+
+.pointsSpan {
+    margin-left: 54%;
+}
